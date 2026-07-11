@@ -1,0 +1,309 @@
+
+Frieren - S01E01.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000021a2d33bf00] mean_volume: -32.8 dB
+[Parsed_volumedetect_0 @ 0000021a2d33bf00] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001c1fc719680] mean_volume: -28.2 dB
+[Parsed_volumedetect_0 @ 000001c1fc719680] max_volume: -0.5 dB
+
+
+Frieren - S01E02.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001bcd8570900] mean_volume: -32.2 dB
+[Parsed_volumedetect_0 @ 000001bcd8570900] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000019b508de880] mean_volume: -28.5 dB
+[Parsed_volumedetect_0 @ 0000019b508de880] max_volume: 0.0 dB
+
+
+Frieren - S01E03.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000023a7d51a740] mean_volume: -30.4 dB
+[Parsed_volumedetect_0 @ 0000023a7d51a740] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000015272f46a00] mean_volume: -26.9 dB
+[Parsed_volumedetect_0 @ 0000015272f46a00] max_volume: 0.0 dB
+
+
+Frieren - S01E04.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001b93a310f00] mean_volume: -32.5 dB
+[Parsed_volumedetect_0 @ 000001b93a310f00] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001ff1535ef00] mean_volume: -28.8 dB
+[Parsed_volumedetect_0 @ 000001ff1535ef00] max_volume: -3.5 dB
+
+
+Frieren - S01E05.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001e74194f940] mean_volume: -32.3 dB
+[Parsed_volumedetect_0 @ 000001e74194f940] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000165462c5680] mean_volume: -27.4 dB
+[Parsed_volumedetect_0 @ 00000165462c5680] max_volume: -0.4 dB
+
+
+Frieren - S01E06.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 00000183e9f750c0] mean_volume: -30.7 dB
+[Parsed_volumedetect_0 @ 00000183e9f750c0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000252021c3940] mean_volume: -26.3 dB
+[Parsed_volumedetect_0 @ 00000252021c3940] max_volume: 0.0 dB
+
+
+Frieren - S01E07.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000022ca2a7ef40] mean_volume: -33.3 dB
+[Parsed_volumedetect_0 @ 0000022ca2a7ef40] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000012e6bbeef00] mean_volume: -27.8 dB
+[Parsed_volumedetect_0 @ 0000012e6bbeef00] max_volume: -2.6 dB
+
+
+Frieren - S01E08.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000002728172a700] mean_volume: -31.2 dB
+[Parsed_volumedetect_0 @ 000002728172a700] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000284cf2b1940] mean_volume: -26.3 dB
+[Parsed_volumedetect_0 @ 00000284cf2b1940] max_volume: 0.0 dB
+
+
+Frieren - S01E09.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000020fc6715f00] mean_volume: -28.5 dB
+[Parsed_volumedetect_0 @ 0000020fc6715f00] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000002f19435a680] mean_volume: -24.4 dB
+[Parsed_volumedetect_0 @ 000002f19435a680] max_volume: 0.0 dB
+
+
+Frieren - S01E10.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001fa188f0e80] mean_volume: -31.2 dB
+[Parsed_volumedetect_0 @ 000001fa188f0e80] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000254aa6de700] mean_volume: -27.9 dB
+[Parsed_volumedetect_0 @ 00000254aa6de700] max_volume: -1.0 dB
+
+
+Frieren - S01E11.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 00000118e4821680] mean_volume: -33.2 dB
+[Parsed_volumedetect_0 @ 00000118e4821680] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000028710ebef00] mean_volume: -28.2 dB
+[Parsed_volumedetect_0 @ 0000028710ebef00] max_volume: -2.9 dB
+
+
+Frieren - S01E12.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001954db31e80] mean_volume: -31.1 dB
+[Parsed_volumedetect_0 @ 000001954db31e80] max_volume: -2.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000023bea3682c0] mean_volume: -27.5 dB
+[Parsed_volumedetect_0 @ 0000023bea3682c0] max_volume: 0.0 dB
+
+
+Frieren - S01E13.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 00000207b800eec0] mean_volume: -33.2 dB
+[Parsed_volumedetect_0 @ 00000207b800eec0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000002bcf579fe00] mean_volume: -28.7 dB
+[Parsed_volumedetect_0 @ 000002bcf579fe00] max_volume: -3.9 dB
+
+
+Frieren - S01E14.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001ef38c8b600] mean_volume: -32.8 dB
+[Parsed_volumedetect_0 @ 000001ef38c8b600] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000270eb599880] mean_volume: -28.0 dB
+[Parsed_volumedetect_0 @ 00000270eb599880] max_volume: -2.5 dB
+
+
+Frieren - S01E15.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001e35fd04e80] mean_volume: -30.8 dB
+[Parsed_volumedetect_0 @ 000001e35fd04e80] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000017fa16a6a00] mean_volume: -26.5 dB
+[Parsed_volumedetect_0 @ 0000017fa16a6a00] max_volume: -1.0 dB
+
+
+Frieren - S01E16.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000024aea2f8ec0] mean_volume: -34.9 dB
+[Parsed_volumedetect_0 @ 0000024aea2f8ec0] max_volume: -4.1 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001f017d44680] mean_volume: -28.9 dB
+[Parsed_volumedetect_0 @ 000001f017d44680] max_volume: -2.5 dB
+
+
+Frieren - S01E17.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 0000020288acaac0] mean_volume: -34.6 dB
+[Parsed_volumedetect_0 @ 0000020288acaac0] max_volume: -3.9 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000016eb4909540] mean_volume: -28.8 dB
+[Parsed_volumedetect_0 @ 0000016eb4909540] max_volume: -3.5 dB
+
+
+Frieren - S01E18.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001c501a22dc0] mean_volume: -33.7 dB
+[Parsed_volumedetect_0 @ 000001c501a22dc0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000246dfbe5ec0] mean_volume: -27.8 dB
+[Parsed_volumedetect_0 @ 00000246dfbe5ec0] max_volume: -0.8 dB
+
+
+Frieren - S01E19.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001847bd1a0c0] mean_volume: -31.0 dB
+[Parsed_volumedetect_0 @ 000001847bd1a0c0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001319a7e9680] mean_volume: -25.4 dB
+[Parsed_volumedetect_0 @ 000001319a7e9680] max_volume: 0.0 dB
+
+
+Frieren - S01E20.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001c5fbadb340] mean_volume: -31.3 dB
+[Parsed_volumedetect_0 @ 000001c5fbadb340] max_volume: -3.9 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000022e359f0e80] mean_volume: -26.4 dB
+[Parsed_volumedetect_0 @ 0000022e359f0e80] max_volume: -0.1 dB
+
+
+Frieren - S01E21.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001cd11f2a2c0] mean_volume: -28.6 dB
+[Parsed_volumedetect_0 @ 000001cd11f2a2c0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000207e4c18980] mean_volume: -24.4 dB
+[Parsed_volumedetect_0 @ 00000207e4c18980] max_volume: 0.0 dB
+
+
+Frieren - S01E22.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001910a01db80] mean_volume: -34.1 dB
+[Parsed_volumedetect_0 @ 000001910a01db80] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001dce2a4ae00] mean_volume: -28.9 dB
+[Parsed_volumedetect_0 @ 000001dce2a4ae00] max_volume: -1.3 dB
+
+
+Frieren - S01E23.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001c5442eeec0] mean_volume: -30.5 dB
+[Parsed_volumedetect_0 @ 000001c5442eeec0] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001eb0262eec0] mean_volume: -26.5 dB
+[Parsed_volumedetect_0 @ 000001eb0262eec0] max_volume: 0.0 dB
+
+
+Frieren - S01E24.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 00000211ff6f0e80] mean_volume: -30.6 dB
+[Parsed_volumedetect_0 @ 00000211ff6f0e80] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001702e36f200] mean_volume: -25.6 dB
+[Parsed_volumedetect_0 @ 000001702e36f200] max_volume: 0.0 dB
+
+
+Frieren - S01E25.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 00000159b865ee80] mean_volume: -31.6 dB
+[Parsed_volumedetect_0 @ 00000159b865ee80] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000023e4ee10ec0] mean_volume: -26.9 dB
+[Parsed_volumedetect_0 @ 0000023e4ee10ec0] max_volume: 0.0 dB
+
+
+Frieren - S01E26.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000002229c2d7c00] mean_volume: -27.1 dB
+[Parsed_volumedetect_0 @ 000002229c2d7c00] max_volume: -2.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 000001fc2095aec0] mean_volume: -24.0 dB
+[Parsed_volumedetect_0 @ 000001fc2095aec0] max_volume: -0.0 dB
+
+
+Frieren - S01E27.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000002094f0b0e80] mean_volume: -35.0 dB
+[Parsed_volumedetect_0 @ 000002094f0b0e80] max_volume: -4.1 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 0000023ee3979680] mean_volume: -30.5 dB
+[Parsed_volumedetect_0 @ 0000023ee3979680] max_volume: -6.2 dB
+
+
+Frieren - S01E28.mkv
+Stream a:0
+[Parsed_volumedetect_0 @ 000001d344829680] mean_volume: -34.5 dB
+[Parsed_volumedetect_0 @ 000001d344829680] max_volume: -4.0 dB
+
+
+Stream a:1
+[Parsed_volumedetect_0 @ 00000256e2d99a80] mean_volume: -30.3 dB
+[Parsed_volumedetect_0 @ 00000256e2d99a80] max_volume: -1.1 dB
+
+
