@@ -1,0 +1,14 @@
+1080 window
+	video-compare.exe -w x1080
+
+960
+	video-compare.exe -w x960
+
+HDR (it already applies tone mapping, but the brightness is off and this is the closest I can get)
+	video-compare.exe -w x1080 -T rel -L 150
+
+FG ignore (ignore the AV1 film grain table of the right side)
+	video-compare.exe -w x1080 --right-decoder libdav1d:export_side_data=film_grain
+
+FG compare (takes one file and will compare it with an without the film grain table)
+	video-compare.exe -w x1080 --left-decoder libdav1d:export_side_data=film_grain __
