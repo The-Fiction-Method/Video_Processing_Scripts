@@ -41,9 +41,10 @@ pushd "%fold%"
 call "%fold%\%batch%" "%fold%\%film%"
 
 ::	pulls %folder% from Batch script
+if "%MKVmux%"=="TRUE" set foldMKV=EXT Change
 if "%MKVmux%"=="TRUE" (
-	set foldMKV=EXT Change
 	CALL :FOLDcheck "%folder%\%foldMKV%"
+
 	IF NOT EXIST "%folder%\%foldMKV%\%film%" (
 		mkvmerge "%fold%\%folder%\%film%" -o "%folder%\%foldMKV%\%film%"
 		)
@@ -59,7 +60,10 @@ if "%name%"=="" set name=%~n1
 IF NOT EXIST "%file%" exit /b 0
 
 mkvpropedit "%file%" --edit info --set "title=%name%"
-if "%MKVmux%"=="TRUE" mkvpropedit "%foldMKV%\%file%" --edit info --set "title=%name%"
+
+::	for some reason it does not want to work with parantheses
+if "%MKVmux%"=="TRUE" call set fileMKV=%%file:%folder%=%folder%\%foldMKV%%%
+if "%MKVmux%"=="TRUE" mkvpropedit "%fileMKV%" --edit info --set "title=%name%"
 
 exit /B 0
 
@@ -90,8 +94,9 @@ goto :AUDloopNAME
 
 REM mkvpropedit "%~1" --edit track:a1 --set name="test"
 
-mkvpropedit "%file%" %TAG%
-if "%MKVmux%"=="TRUE" mkvpropedit "%foldMKV%\%file%" %TAG%
+::	for some reason it does not want to work with parantheses
+if "%MKVmux%"=="TRUE" call set fileMKV=%%file:%folder%=%folder%\%foldMKV%%%
+if "%MKVmux%"=="TRUE" mkvpropedit "%fileMKV%" %TAG%
 
 exit /B 0
 
@@ -123,8 +128,9 @@ goto :SUBloopNAME
 
 REM mkvpropedit "%~1" --edit track:s1 --set name="test"
 
-mkvpropedit "%file%" %TAG%
-if "%MKVmux%"=="TRUE" mkvpropedit "%foldMKV%\%file%" %TAG%
+::	for some reason it does not want to work with parantheses
+if "%MKVmux%"=="TRUE" call set fileMKV=%%file:%folder%=%folder%\%foldMKV%%%
+if "%MKVmux%"=="TRUE" mkvpropedit "%fileMKV%" %TAG%
 
 exit /B 0
 
