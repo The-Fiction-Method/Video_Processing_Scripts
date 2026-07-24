@@ -94,6 +94,8 @@ goto :AUDloopNAME
 
 REM mkvpropedit "%~1" --edit track:a1 --set name="test"
 
+mkvpropedit "%file%" %TAG%
+
 ::	for some reason it does not want to work with parantheses
 if "%MKVmux%"=="TRUE" call set fileMKV=%%file:%folder%=%folder%\%foldMKV%%%
 if "%MKVmux%"=="TRUE" mkvpropedit "%fileMKV%" %TAG%
@@ -127,6 +129,8 @@ goto :SUBloopNAME
 :SUBendNAME
 
 REM mkvpropedit "%~1" --edit track:s1 --set name="test"
+
+mkvpropedit "%file%" %TAG%
 
 ::	for some reason it does not want to work with parantheses
 if "%MKVmux%"=="TRUE" call set fileMKV=%%file:%folder%=%folder%\%foldMKV%%%
