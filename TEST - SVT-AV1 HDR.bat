@@ -24,7 +24,7 @@ REM set FILT=%FILT%,decimate
 ::	in theory will convert back to 24 FPS, but it can introduce jerkiness, depending on source
 REM set FILT=%FILT%,detelecine
 ::	undoes the 3:2 pulldown to make 24 FPS from 30 FPS on many DVDs, but not as good as decimate
-REM set FILT=%FILT%, libplacebo=w=-1:h='min(ih,1080)':color_primaries=bt709:color_trc=bt709:colorspace=bt709:tonemapping=bt.2446a:downscaler=lanczos:format=yuv420p10le
+REM set FILT=%FILT%, libplacebo=w=-4:h='min(ih,1080)':color_primaries=bt709:color_trc=bt709:colorspace=bt709:tonemapping=bt.2446a:downscaler=lanczos:format=yuv420p10le
 ::	for converting HDR to SDR and downscale to 1080p, but never up. From https://gist.github.com/goyuix/033d35846b05733d77f568b754e7c3ea
 
 CALL :VIDheight "%~1" height
@@ -50,6 +50,8 @@ set cHVS=1
 ::	whether to use a more complex Human Visual System model. Default 0 but likely 1 will be better. May be bad for grain retention.
 set NAF=1
 ::	controls noise detection and can impact fidelity with tune 0 default now 0 for off, with 1 being on and 2 being default behavior, 3 to impact CDEF only, 4 for restoration only which should help preserve lines
+REM set QMpsnr=0
+::	applies quantization matrices when computing RD, should improve image quality, especially for stills 0 off, 1 on
 REM set QPscale=0
 ::	increases consistency but lowers average quality. 0-3 with 3 being the strongest. 3 can be better for high CRF values
 REM set CDEFscl=15
@@ -87,8 +89,8 @@ CALL :RATEopusChan rateA %CHAN% 0 0
 
 set TUNE=0
 ::	tune 0 for Visual Quality
-::	tune 5 is a Film Grain Tune, but use toggles instead
-::	0 = VQ, 1 = PSNR, 2 = SSIM, 3 = IQ (Image Quality), 4 = MS_SSIM, 5 = Film Grain
+::	tune 6 is a Film Grain Tune, but use toggles instead
+::	0 = VQ, 1 = PSNR, 2 = SSIM, 3 = IQ (Image Quality), 4 = MS_SSIM, 5 = VAMF, 6 = Film Grain
 
 set MISC=
 set MISCconfig=
@@ -200,6 +202,8 @@ if "%DNR%"=="1" (
 	set SVTparam=%SVTparam%:film-grain-denoise=1
 	set SVTconfig=%SVTconfig% DNR
 	)
+if not "%QMpsnr%"=="0" set SVTparam=%SVTparam%:enable-qmpsnr=1
+if "%QMpsnr%"=="0" set SVTconfig=%SVTconfig% -QMpsnr %QMpsnr%
 if "%HQ%"=="Y" (
 	set SVTparam=%SVTparam%:hbd-mds=1:enable-dlf=2
 	set SVTconfig=%SVTconfig% HQ

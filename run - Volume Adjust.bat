@@ -15,11 +15,16 @@ TITLE	Volume Adjust Sequence
 set dir=%~dp0
 REM set dir=
 
+REM call :VOLcallFLAC "%dir%" "ASD.mkv" AMP1 AMP2 ...
+
+
+REM goto S01
+
+REM :S01
 REM set dirS=%dir%\Season 01
 REM set serieS=SERIES - S01
-REM call :VOLcallFLAC "%dirS%" "%serieS%E01.mkv" AMP1 AMP2 ...
 
-REM call :VOLcallFLAC "%dir%" "ASD.mkv" AMP1 AMP2 ...
+REM call :VOLcallFLAC "%dirS%" "%serieS%E01.mkv" AMP1 AMP2 ...
 
 exit
 

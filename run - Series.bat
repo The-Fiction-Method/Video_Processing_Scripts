@@ -6,35 +6,14 @@ set PATH=C:\Program Files\MKVToolNix;%PATH%
 ::		writes a list of files in a directory
 REM set MKVmux=TRUE
 
-REM call :TITLcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" ""
+goto START
+::	placing videos at bottom as it may help avoid issues when commenting lines on and off
 
-::	call :nameAUDcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" "Audio_2" "Audio_3"
-::		if blank, "", it will write the channel layout (Mono, Stereo, Surround 5.1)
-::	RegEx to find files with multiple audio tracks in "run - Volume Adjust"
-::		.*" \d+ \d+.*
-REM call :nameAUDcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" ""
-REM call :nameSUBcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" ""
-
-set dir=SERIES
-set script=Re-encode - SVT-AV1-HDR + Opus - multi.bat
-REM set script=Re-encode - SVT-AV1-HDR + Opus.bat
-REM set script=Re-encode - x265 + Opus - multi.bat
-REM set script=Re-encode - x265 + Opus.bat
-
-goto S01
-
-:S01
-set dirS=%dir%\Season 01
-set serieS=SERIES - S01
-
-call :PROCcall "%dirS%" "%serieS%E01.mkv" "..\%script%"
-REM call :TITLcall "%dirS%\Re-encode\%film%" ""
-REM call :nameAUDcall "%dirS%\Re-encode\%film%" "" "Commentary"
-
-::pause
 exit
 
 :PROCcall <FOLD> <FILM> <BATCH>
+call :VARclear
+
 set fold=%~1
 set film=%~2
 set batch=%~3
@@ -53,6 +32,39 @@ if "%MKVmux%"=="TRUE" (
 		mkvmerge "%fold%\%folder%\%film%" -o "%folder%\%foldMKV%\%film%"
 		)
 	)
+
+exit /B 0
+
+:VARclear
+::	to clear variables that may carry over from the previous script
+
+set "crf="
+set "preset="
+set "SVTparam="
+set "SVTconfig="
+set "rate="
+set "cHVS="
+set "NOISENORM="
+set "PSYRD="
+set "TUNE="
+set "NAF="
+set "SPYRD="
+set "QPscale="
+set "QPlum="
+set "CDEFscl="
+set "VBS="
+set "VO="
+set "GRAIN="
+set "PHOTON="
+set "PHOSIZ="
+set "PHOCHR="
+set "DNR="
+set "QMpsnr="
+set "HQ="
+set "TQ="
+set "VBC="
+set "rateOVER="
+set "MISC="
 
 exit /B 0
 
@@ -190,3 +202,41 @@ exit /B 0
 :FOLDcheck <OUTfold>
 if NOT EXIST "%~1" mkdir "%~1"
 exit/B 0
+
+
+:START
+
+REM call :PROCcall "M:\MakeMKV\ASD" "ASD.mkv" "Re-encode - SVT-AV1-HDR + Opus - multi.bat"
+
+::	call :nameAUDcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" "Audio_2" "Audio_3"
+::		if blank, "", it will write the channel layout (Mono, Stereo, Surround 5.1)
+::	RegEx to find files with multiple audio tracks in "run - Volume Adjust"
+::		.*" \d+ \d+.*
+REM call :nameAUDcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" ""
+REM call :nameSUBcall "M:\MakeMKV\ASD\Re-encode\ASD.mkv" "" ""
+
+::	example with named-variable references
+REM call :PROCcall "M:\MakeMKV\ASD" "ASD.mkv" "Re-encode - SVT-AV1-HDR + Opus - multi.bat"
+REM call :TITLcall "%fold%\Re-encode\%film%" ""
+REM call :nameAUDcall "%fold%\Re-encode\%film%" "" ""
+REM call :nameSUBcall "%fold%\Re-encode\%film%" "" ""
+::	when using %fold%, remember it is only good once, as then it changes
+
+set dir=SERIES
+set script=Re-encode - SVT-AV1-HDR + Opus - multi.bat
+REM set script=Re-encode - SVT-AV1-HDR + Opus.bat
+REM set script=Re-encode - x265 + Opus - multi.bat
+REM set script=Re-encode - x265 + Opus.bat
+
+goto S01
+
+:S01
+set dirS=%dir%\Season 01
+set serieS=SERIES - S01
+
+call :PROCcall "%dirS%" "%serieS%E01.mkv" "..\%script%"
+REM call :TITLcall "%dirS%\Re-encode\%film%" ""
+REM call :nameAUDcall "%dirS%\Re-encode\%film%" "" "Commentary"
+
+::pause
+exit
